@@ -2,10 +2,10 @@ public class GeneralPractitioner extends HealthProfessional {
     private int YearsOfExpertise;
 
     public GeneralPractitioner() {
-        this.setId(null);
+        this.setId(0);
         this.setName(null);
         this.setGender(null);
-        this.setYearsOfExpertise(null);
+        this.setYearsOfExpertise(0);
     }
 
     public GeneralPractitioner(int id, String name, String gender, int YearsOfExpertise) {
